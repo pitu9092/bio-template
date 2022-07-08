@@ -1,0 +1,286 @@
+body{
+	background-color: green;
+}
+
+
+.main_templet{
+	border: 3px solid black;
+	height: auto;
+	background-color: pink;
+	margin: 25px;
+
+}
+.left{
+	border:px solid black;
+	height: auto;
+	width: 15%;
+	margin: 15px;
+	display: inline-block;
+	float: left;
+}
+
+img{
+	width: 100%;
+	border-radius: 5%;
+}
+.bio{
+	background-color: green;
+	height: auto;
+	width: 100%;
+	padding: 9px;
+	margin-top: 20px;
+	font-size: 20px;
+	color: white;
+}
+.right{
+	border: 0px solid red;
+	height: auto;
+	width: 78%;
+	display: inline-block;
+	background-color: seagreen;
+	margin: 15px;
+	padding: 10px;
+}
+h1{
+	color: #e2d1d1;
+}
+h2{
+	color: #e2d1d1;
+}
+p{
+	color: white;
+}	
+
+.date_main{
+	border: 0px solid black;
+	height: auto;
+	margin: 30px 0;
+}
+.date_left{
+	border: 0px solid red;
+	height: auto;
+	display: inline-block;
+	width: 49.60%;
+	/*text-align: center;*/
+}
+.date_left_up{
+	border: 0px solid yellow;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.date_left_down{
+	border: 0px solid pink;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}.lg{
+	border: 0px solid black;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}
+.lg label{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.lan{
+	color: white;
+}
+.icon{
+	border: 0px solid black;
+	text-align: center;
+	margin: 5px;
+}
+.icon i{
+	border: 2px solid black;
+	padding: 5px;
+	margin: 2px;
+	color: white;
+	margin-top: 25px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.icon i:hover{
+	background-color: white;
+	color: black;
+	/*border-radius: 10%;*/
+}
+
+
+
+
+
+
+
+/*
+***************************
+***************************
+********Mobile Css*********
+***************************
+****************************/
+
+
+@media(min-width: 280px) and (max-width: 767px)
+{
+	body{
+	background-color: green;
+}
+
+
+.main_templet{
+	border: 3px solid black;
+	height: auto;
+	background-color: pink;
+	width: 98%;
+	margin: 0px;
+
+}
+.left{
+	border: 0px solid black;
+	/*height: auto;*/
+	width: 50%;
+	margin: 15px;
+	display: inline-block;
+	float: left;
+	padding: 0 70px;
+
+}
+
+img{
+	width: 100%;
+	border-radius: 50%;
+}
+.bio{
+	background-color: green;
+	height: auto;
+	width: 100%;
+	padding: 9px;
+	margin-top: 20px;
+	font-size: 20px;
+	color: white;
+}
+.right{
+	border: 0px solid red;
+	height: auto;
+	width: 91.50%;
+	display: inline-block;
+	background-color: seagreen;
+	margin: 5px;
+	padding: 10px;
+}
+h1{
+	color: red;
+	font-size: 25px;
+}
+h2{
+	color: red;
+}
+p{
+	color: white;
+}	
+
+.date_main{
+	border: 0px solid black;
+	height: auto;
+	margin: 30px 0;
+	text-align: center;
+	font-size: 12px;
+}
+.date_left{
+	border: 0px solid red;
+	height: auto;
+	display: inline-block;
+	width: 49.60%;
+	padding: 10px;
+	/*text-align: center;*/
+}
+.date_left_up{
+	border: 0px solid yellow;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.date_left_down{
+	border: 0px solid pink;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+
+}.lg{
+	border: 0px solid black;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}
+.lg label{
+	font-size: 12px;
+}
+.lan{
+	color: white;
+}
+.icon{
+	border: 0px solid black;
+	text-align: center;
+	margin: 5px;
+}
+.icon i{
+	border: 2px solid black;
+	padding: 5px;
+	margin: 2px;
+	color: white;
+	margin-top: 25px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.icon i:hover{
+	background-color: white;
+	color: black;
+	/*border-radius: 10%;*/
+}
+
+
+}
+
+/*
+***************************
+***************************
+********Teblet Css*********
+***************************
+****************************/
+
+
+@media(min-width:768px) and (max-width:1023px)
+{
+	.right{
+		width: 73%;
+
+	}
+
+
+}
+
+
+@media(min-width: 1024px) and (max-width: 1366px){
+	.right{
+		width: 76%;
+	}
+}
